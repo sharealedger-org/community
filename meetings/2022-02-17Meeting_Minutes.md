@@ -1,7 +1,8 @@
 The Sharealedger Meeting minutes from the weekly work meeting.  Attendees included:
 - Sandy Peresie
 - Niel Beesley
-- Jon Delaschmit
+- Jon DeLashmit
+- Kip Twitchell
 - Mike Hopkins (briefly)
 
 Reviewed the prior week's meeting, noting the end result was that considering a shared google sheet as a simple shared ledger, with the provisios that:
@@ -13,7 +14,7 @@ Access to the system could look like "Locking down an excel spreadsheet" and som
 
 We also reviewed the prior weeks' meeting discussion about who are the customers of Sharealedger.  This question created two impressions:
 - There are tool developers that are the immediate customers of sharealedger, learning how to share ledgers and build apps to do so.
-- Then they have customers that are the end users of those apps.
+- Then they have customers that are the end users of those apps. 
 Some portion of this work includes:
 - Growing Support
 - Development
