@@ -19,7 +19,7 @@ Discussion shifted to considering the vision, goals, factors we control, and tas
 
 An initial vision statement was drafted for consideration:
 
-The Sharealedger Vision is to enable ubiquitous measurement of performance (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by building a common library of concepts and software for shared bookkeeping including business events, structured data and positions, at lower cost and higher scale than today’s systems to widespread facilitate adoption
+The Sharealedger Vision is to enable ubiquitous measurement of performance (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by building a common library of concepts and software for shared bookkeeping including business events, structured data and positions, at lower cost and higher scale than today’s systems to facilitate widespread adoption
 
 We discussed a simple framework for understanding the problem of bookkeeping, including these ideas from historical accounting:
 
