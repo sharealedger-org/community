@@ -9,7 +9,7 @@ Attendees include:
 # Vision Statement
 Small changes made in the vision statement based upon the developed goals. Each goal should link to something in the mission statement
 
->The Sharealedger Vision is to improve measurement of performance (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by promoting innoviation through a community, enabling building a common library of concepts and software for shared bookkeeping including business events, structured data and positions, at lower cost and higher scale than today’s systems to facilitate widespread adoption
+>The Sharealedger Vision is to improve measurement of performance (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by promoting innovation through a community, enabling building a common library of concepts and software for shared bookkeeping including business events, structured data and positions, at lower cost and higher scale than today’s systems to facilitate widespread adoption
 
 # Potential Goals
 
