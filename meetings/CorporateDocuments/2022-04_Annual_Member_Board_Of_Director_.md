@@ -46,7 +46,7 @@ Proposed Agenda: Board of Directors
       1. Provide an independent environment for collaboration on financial system innovation
       2. Provide access to properly licensed involved IP from contributors for broader use in society
       3. Enhance participants resumes and skills by association with the organization
-   2. Review Mission Statement and Goals as found on website
+   2. Review Mission Statement and Goals: Sharealedger's Vision is to (1) Improve performance measurement (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by (2) Promoting innovation through a community, (3) Providing a library of concepts and software for shared bookkeeping, (4) and Facilitating widespread adoption through lower cost and higher scale than today’s existing systems
    3. Primary Interface is the website.  Domain Names include:
       1. Sharealedger.org
       2. Sharealedger.com is redirected to .org.  Might be used in the future for commercial purposes (direct access to a shared ledger)

@@ -31,7 +31,7 @@ Have 3 levels of detail for each point, to allow the audience to choose the dept
 # Restatement of Vision Statement
 Small changes made in the vision statement based upon the developed goals. Each goal should link to something in the mission statement
 
->Sharealedger's Vision is (1) to improve of performance measurement (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) (2) by promoting innovation through a community, (3) enabling a common library of concepts and software for shared bookkeeping, (4) and facilitating widespread adoption through lower cost and higher scale than today’s existing systems
+>Sharealedger's Vision is to (1) Improve performance measurement (either financial or otherwise) as expressed in [“Vision for a New Financial World,”](https://sharealedger.org/?p=244) by (2) Promoting innovation through a community, (3) Providing a library of concepts and software for shared bookkeeping, (4) and Facilitating widespread adoption through lower cost and higher scale than today’s existing systems
 
 1. Test the concept of shared ledgers to prove they provide better data quality at lower costs than today financial systems (not just blockchain).
 2. Create an engaged and talented community to promote innovation in financial systems based upon the proof.  
