@@ -60,8 +60,8 @@ Proposed Agenda: Board of Directors
       5. oursharedledger.com and .org are also reserved domains but not used
    4. Membership based upon signing up for e-mail notice from website
       1. And agreeing to the following proposed documents
-         1. Proposed Member Terms of Use for new members
-         2. Proposed Anti-Trust Policy adoption
+         1. Proposed Website Terms of Use adoption
+         2. Proposed Membership and Anti-Trust Policy adoption
          3. Proposed Data Privacy Policy adoption
       2. **Proposed Resolution**: Adoption of these policies
       3. __Discussion__: Can someone participate in meeting and content posting if one has not signed up by providing e-mail on the website?
@@ -76,7 +76,7 @@ Proposed Agenda: Board of Directors
       6. Attorney Statutory Agent:  ($99 a year)
       7. Tax and Bookkeeping Assistance ($500 a year suggested, discussed below)
       8. On-line Meetings:  IBM's Webex (IBM account, perhaps 1 hour a week, considered incidental)
-   2. Significant Startup Costs, Approimately $4,000 one time
+   2. Significant Startup Costs, Approximately $4,000 one time
       1. Accounting and Tax Advisory, Kevin Marshall $2,000
       2. Corporate Legal Filing, Richard Keyt, $1,000
       3. IRS Non-profit filing, $600

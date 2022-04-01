@@ -22,21 +22,21 @@ A restatement of the vision:
 
 Shared ledgers provide transparency, consistency, and accessibility to transform the financial world and will bring one billion new people into the digital economy; not just through transaction payments and receipts, but also through measurement of what they do well, what they don’t do well, and what they should do differently to prepare for the future. To accomplish this, Sharealedger.org must (1) develop the community to (2) innovate truly shared ledgers, (3) curate a library of shared resources for bookkeeping, (4) and facilitate adoption by lower cost and fewer constraints than today’s existing systems
 
-## Website Structure, with content ideas
-o	Home
-    	Vision and Goals
-o	Shared Ledgers (Goal 2)
-    	Vision Statement
-    	Problem Statement
-o	Community Activities (Goal 1)
-    	Latest Activity
-    	Link to Membership
-o	Resources (Goal 3 and 4)
-    	Topical Organization of Materials
-    	Links to Ledgerlearning Resources
-o	Membership
-    	Legal agreements
-o	About Sharealedger
-    	Board Members
-    	Participating Organizations
-    	Links to GitHub Docs
+## Website Structure, with content ideas points
+- Home
+  - Vision and Goals
+- Shared Ledgers (Goal 2)
+  - Vision Statement
+  - Problem Statement
+- Community Activities (Goal 1)
+  - Latest Activity
+  - Link to Membership
+- Resources (Goal 3 and 4)
+  - Topical Organization of Materials
+  - Links to Ledgerlearning Resources
+- Membership
+  - Legal agreements
+- About Sharealedger
+  - Board Members
+  - Participating Organizations
+  - Links to GitHub Docs
