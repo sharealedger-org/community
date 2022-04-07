@@ -37,7 +37,20 @@ Proposed Agenda: Board of Directors
    2. **Proposed Resolution**:  Kip Twitchell to continue in these roles
    3. **Proposed Resolution**:  Kip Twitchell continue as sole officer of the corporation, titled either CEO or Executive Director
    4. __Discussion__: Executor function as back-up to Officer
-   5. **Proposed Resolution**: Approval of minutes of founding meeting and incorporating documents with the following amendment to bylaws:
+   5. **Proposed Resolution**: Approval of minutes of founding meeting and incorporating documents including:
+      1. [2021-04-27_AZ_Acknowledgment_of_Incorporation.pdf](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-27_AZ_Acknowledgment_of_Incorporation.pdf)
+      2. [2021_Organizing_Board_Minutes.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_2021_Organizing_Board_Minutes.md)
+      3. [A.Corporate_By_Laws.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_A.Corporate_By_Laws.md)
+      4. [B.Conflict of Interest Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_B.Conflict%20of%20Interest%20Policy.md)
+      5. [C.Travel_and_Expense_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_C.Travel_and_Expense_Policy.md)
+      6. [D.Whistleblower_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_D.Whistleblower_Policy.md)
+      7. [E.Document_Retention_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_E.Document_Retention_Policy.md)
+      8. [E1.Document_Retention_Policy.csv](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_E1.Document_Retention_Policy.csv)
+      9. [F.Gift_Acceptance_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_F.Gift_Acceptance_Policy.md)
+      10. [G.Executive_Compensation_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_G.Executive_Compensation_Policy.md)
+      11. [H.Joint_Venture_Policy.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_H.Joint_Venture_Policy.md)
+      12. [IRS_Form_1024_NFP_Application.pdf](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-09-1_IRS_Form_1024_NFP_Application.pdf)
+   6. **Proposed Amendments**: Propose the following amendment to [Corporate By Laws.md](https://github.com/sharealedger-org/community/blob/master/meetings/CorporateDocuments/2021-04-30_A.Corporate_By_Laws.md):
       1. Meeting notice to include e-mail
       2. Date of annual meeting of the Board to be April and include e-mail notice
       3. Remove reference to reliance on religious leaders for corporate direction
