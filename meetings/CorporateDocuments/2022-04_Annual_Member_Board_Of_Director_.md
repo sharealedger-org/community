@@ -1,6 +1,10 @@
 2022-04_Annual_Member_Board_Of_Director_Meeting
 
-# Annual Member Meeting
+This document contains both the agendas and the meeting minutes for these meetings.
+
+# Agendas: 
+
+## Annual Member Meeting
 Proposed Agenda: First annual meetings of members of Sharealedger, NFP
 1. Welcome
 2. Review of Proposed Agenda and Meeting Procedure
@@ -19,7 +23,7 @@ Proposed Agenda: First annual meetings of members of Sharealedger, NFP
 6. Other full membership items
 7. Meeting Close
 
-# Annual Board of Directors Meeting
+## Annual Board of Directors Meeting
 Proposed Agenda: Board of Directors
 1. Welcome
 2. Proposed Meeting Agenda and Procedure
@@ -106,3 +110,49 @@ Proposed Agenda: Board of Directors
     2.  Attorney for 503(c)(3) corporation, but agreed to function for 503(c)(6), business association organization 
     3.  Any other work to be quoted at time of work
     4.  **Proposed Resolution**: Richard C. Keyt continued to be retained as Corporate Counsel and Statutory Agent
+
+    # Minutes: 
+
+## Annual Member Meeting
+The First annual meetings of members of Sharealedger, NFP was held on Thursday, April 14, 2022 via Webex at 5 PM Arizona Time.  The meeting followed the agenda as published above.  Attendees include:
+
+- Kip Twitchell, Chairman and Founder
+- Moncia Logan
+- Rick Roth
+- Fred Horwitz
+
+The meeting was called to order, and the proposed agenda was approved.  As this was the first meeting, there were no minutes to be approved.
+
+The history of and organization of the corporation was reviewed, and the vision and goals discussed.  There was a consensus that although the need for the organization was clear, how it would attract members and fulfill that goal will be developed over time.
+
+A proposal was made to form the board of directors, seconded and passed unanimously.  All members in attendance were proposed as members of the board, and approved by all in attendance.
+
+Having no other business, the meeting was closed, agreeing that the board would take action on behalf of all other members.
+
+## Annual Board of Directors Meeting
+The First annual meetings of the board of directors of Sharealedger, NFP was held on Thursday, April 14, 2022 via Webex at approximately 5:15 PM Arizona Time.  The meeting followed the agenda as published above.  Attendees include:
+
+- Kip Twitchell, Chairman and Founder
+- Moncia Logan
+- Rick Roth
+- Fred Horwitz
+
+The meeting was called to order, and the proposed agenda was approved.  As this was the first meeting, there were no minutes to be approved.
+
+The resolution for board members in attendance agreeing to serve on the board and assume the responsibility of board members passed, each member agreeing to the terms of service.  An action was taken by the secretary to distribute the link to certify the role with the Arizona Department of Corporations.
+
+Discussion was had about the need for indemnity insurance, and it was agreed the activities currently undertaken by the organization did not warrant insurance, but it would likely be needed at a future date with increased activity.  This will be monitored in future board meetings.
+
+The proposed resolution that Kip Twitchell continue to function as both the Chairman and Secretary passed.  Also, Mr. Twitchell was voted to continue as the sole officer in the organization, titled Executive Director.  Fred Horwitz was approved to function as back up, and is to be listed on the bank account and the password vaults.
+
+All incorporating documents and minutes, with all proposed amendments, were approved. No exceptions were noted with the mission statement, operations proposals, corporate assets, or membership agreements and policies.  
+
+Discussion was had about organizational and predecessor activities not being explicitly under the new terms of operation.  Agreement was that the intent of the organization has not changed, and clarity about its purpose as an open, collaborative organization was consistent and clearly communicated in all meetings and activities prior to this date.  It was therefore agreed that all preceding activities be inherited by the organization, and the terms of the agreements be retroactive to those meetings.  Publication on the website will serve as adequate notice to prior participants.
+
+The budget and proposed expenditures were approved, including accounting services being provided by Sharealedger, LLC, with right to audit by the NFP.  Accounting policies were approved.  Use of Kevin Marshall, and Evan Stock for accounting and tax services were approved.  Retention of Richard C. Keyt as Statutory Agent was also approved.
+
+Discussion was had about the schedule of Board meetings, and agreement was at least annually, but if needed, the officer and chairman could call for additional meetings.  Agreement was also had to offer additional seats to potential board members who were not able to join the initial meeting.
+
+Complements were made as to the formality of the procedures, noting the a non-profit specializing in financial reporting should be conducted according to the highest standards of governance.  
+
+The meeting was adjourned.  
