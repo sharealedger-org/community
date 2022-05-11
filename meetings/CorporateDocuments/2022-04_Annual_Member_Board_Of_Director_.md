@@ -117,7 +117,7 @@ Proposed Agenda: Board of Directors
 The First annual meetings of members of Sharealedger, NFP was held on Thursday, April 14, 2022 via Webex at 5 PM Arizona Time.  The meeting followed the agenda as published above.  Attendees include:
 
 - Kip Twitchell, Chairman and Founder
-- Moncia Logan
+- Monica Logan
 - Rick Roth
 - Fred Horwitz
 
@@ -133,7 +133,7 @@ Having no other business, the meeting was closed, agreeing that the board would 
 The First annual meetings of the board of directors of Sharealedger, NFP was held on Thursday, April 14, 2022 via Webex at approximately 5:15 PM Arizona Time.  The meeting followed the agenda as published above.  Attendees include:
 
 - Kip Twitchell, Chairman and Founder
-- Moncia Logan
+- Monica Logan
 - Rick Roth
 - Fred Horwitz
 
