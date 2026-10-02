@@ -4,11 +4,26 @@ The Sharealedger project is a collaborative, open source effort, to share inform
 
 The project is governed by two licenses:
 - For code, the project uses the Apache 2.0 license.
-- For Business content, slides and other types of material, the project uses Creative Commons 4.0 license.
+- For business content, slides, and other materials, the project uses Creative Commons 4.0 license.
+  Note: materials in member-only repositories may carry individual copyright notices that supersede
+  the CC 4.0 default. See the Membership section below.
 
-Both licenses allow for commericial development materials found in the project, with proper attribution.
+Both licenses allow for commercial development of materials found in the project, with proper attribution.
 
 More information about the purpose of the organization, the principles involved in its mission, and the collaborative efforts to date can be found at https://sharealedger.org
+
+## Membership
+
+Sharealedger membership is managed through the private `sharealedger-org/members` GitHub
+repository. Access to that repository constitutes membership.
+
+To request membership, file a
+[Membership Request issue](https://github.com/sharealedger-org/community/issues/new/choose)
+in this repository, or contact the CEO at kip.twitchell@sharealedger.org.
+
+The membership policy — qualifications, access terms, copyright provisions, and member
+register requirements — is established by Board resolution:
+[`meetings/CorporateDocuments/2026-10-01_L.Membership_Access_Policy.md`](meetings/CorporateDocuments/2026-10-01_L.Membership_Access_Policy.md)
 
 ## Current Discussion
 
