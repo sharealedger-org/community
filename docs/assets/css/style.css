@@ -88,7 +88,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
+  min-height: 72px;
+  position: relative;
 }
 
 .brand {
@@ -99,12 +100,14 @@ a:hover {
   color: var(--sl-primary);
   font-weight: 700;
   font-size: 1.25rem;
+  z-index: 101;
 }
 
 .brand img {
   height: 42px;
   width: auto;
   border-radius: var(--radius-sm);
+  flex-shrink: 0;
 }
 
 .brand-text {
@@ -127,9 +130,35 @@ a:hover {
   text-transform: uppercase;
 }
 
+/* Mobile Nav Toggle (CSS-only with hidden checkbox) */
+.nav-toggle-input {
+  display: none;
+}
+
+.nav-toggle-btn {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  color: var(--sl-primary);
+  font-size: 1.25rem;
+  line-height: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 101;
+}
+
+.nav-toggle-btn .icon-close {
+  display: none;
+}
+
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   align-items: center;
   list-style: none;
 }
@@ -138,8 +167,10 @@ a:hover {
   color: var(--text-main);
   font-weight: 500;
   font-size: 0.95rem;
-  padding: 6px 10px;
+  padding: 8px 12px;
   border-radius: var(--radius-sm);
+  display: inline-block;
+  transition: all 0.2s ease;
 }
 
 .nav-links a:hover,
@@ -776,31 +807,171 @@ a:hover {
 
 /* Mobile Responsiveness */
 @media (max-width: 900px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero-section {
+    padding: 48px 0 52px;
+  }
+
   .hero-grid,
   .ll-grid,
   .content-wrapper {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-lead {
+    font-size: 1.05rem;
   }
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 28px;
   }
 
-  .hero-title {
-    font-size: 2.2rem;
+  /* Hamburger Toggle */
+  .nav-toggle-btn {
+    display: inline-flex;
   }
 
+  .nav-toggle-input:checked ~ .nav-container .nav-toggle-btn .icon-open {
+    display: none;
+  }
+
+  .nav-toggle-input:checked ~ .nav-container .nav-toggle-btn .icon-close {
+    display: inline;
+  }
+
+  /* Mobile Dropdown Nav */
   .nav-links {
-    display: none; /* simple fallback for now */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 16px;
+    border-bottom: 2px solid var(--sl-primary);
+    box-shadow: var(--shadow-lg);
+    display: none;
+    z-index: 100;
+  }
+
+  .nav-toggle-input:checked ~ .nav-container .nav-links {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 12px 16px;
+    font-size: 1.05rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .sidebar-sticky {
+    position: static;
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px;
+    margin-bottom: 24px;
+  }
+
+  .sidebar-menu li {
+    flex: 1 1 calc(50% - 6px);
+  }
+
+  .sidebar-menu li a {
+    padding: 8px 10px;
+    font-size: 0.88rem;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid var(--border-light);
+  }
+
+  .sidebar-menu li a:hover,
+  .sidebar-menu li a.active {
+    background: var(--sl-cream);
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
 @media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  .page-title {
+    font-size: 1.85rem;
+  }
+
+  .page-header {
+    padding: 36px 0;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-card {
+    padding: 20px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .ll-content h2,
+  .section-title {
+    font-size: 1.6rem;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .ll-feature-list {
     grid-template-columns: 1fr;
+  }
+
+  .sidebar-menu li {
+    flex: 1 1 100%;
+  }
+
+  .prose blockquote {
+    padding: 14px 16px;
+    font-size: 1rem;
+    margin: 20px 0;
+  }
+
+  .callout {
+    padding: 16px;
+    margin: 20px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 }
