@@ -1,6 +1,9 @@
-# Work Meetings
-Currently work meetings for Sharealedger are happening on Thursdays at 5:00 PM ET on this link https://ibm.webex.com/meet/kip.twitchell.
+# Sharealedger Governance & Meetings
 
-# WG Meeting notes
+This directory contains public governance documents and board records for Sharealedger, NFP.
 
-All WG meeting notes are stored here in YYYY-MM-DD.md format. Recordings and other assets from conference calls systems can also be stored in YYYY-MM-DD.XXX format.
+## Directory Structure
+
+- `CorporateDocuments/`: Foundational corporate policies, bylaws, and public board resolutions (Exhibit A through Exhibit L).
+
+*Note: Working group sessions and member technical meeting minutes are archived in the private `sharealedger-org/members` repository under `meetings/`.*
