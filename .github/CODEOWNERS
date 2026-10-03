@@ -1,0 +1,22 @@
+# CODEOWNERS for Sharealedger Community Repository
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default maintainers for community documents, governance, and public meetings
+* @kiptwitchell
+
+# Copyright-restricted content: Kip M. Twitchell (Conversations with Kip & LedgerLearning)
+/docs/ledgerlearning.html @kiptwitchell
+/docs/ledgerlearning/ @kiptwitchell
+/docs/books/ @kiptwitchell
+/docs/2016/ @kiptwitchell
+/docs/2017/ @kiptwitchell
+/docs/2018/ @kiptwitchell
+/docs/2019/ @kiptwitchell
+/docs/2020/ @kiptwitchell
+/docs/2021/ @kiptwitchell
+/docs/2022/ @kiptwitchell
+/docs/2023/ @kiptwitchell
+/docs/2024/ @kiptwitchell
+/docs/2025/ @kiptwitchell
+/docs/2026/ @kiptwitchell
+/website/ @kiptwitchell

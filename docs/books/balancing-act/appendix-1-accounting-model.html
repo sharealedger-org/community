@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balancing Act: Appendix 1 — Accounting Model</title>
+  <meta name="description" content="Appendix 1: Accounting Model from Balancing Act: A Guide to Financial Systems Success by Kip M. Twitchell.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/jpeg" href="/assets/images/icon-small.jpg">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle Navigation">
+    <div class="container nav-container">
+      <a href="/index.html" class="brand">
+        <img src="/assets/images/icon-small.jpg" alt="Sharealedger Logo Icon">
+        <div class="brand-text">
+          <span class="brand-title">Sharealedger</span>
+          <span class="brand-subtitle">Open Ledger Innovation</span>
+        </div>
+      </a>
+      <label for="nav-toggle" class="nav-toggle-btn" aria-label="Open Menu">
+        <span class="icon-open">&#9776;</span>
+        <span class="icon-close">&times;</span>
+      </label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/ledgerlearning.html" style="color: var(--ll-brown); font-weight: 700;">LedgerLearning</a></li>
+          <li><a href="/reports.html">Reports of Work</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/governance.html">Governance</a></li>
+          <li><a href="/membership.html" class="nav-btn-highlight">Membership</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <header class="page-header ll-theme">
+    <div class="container">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+        <span style="background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;">Balancing Act Online Textbook</span>
+      </div>
+      <h1 class="page-title">Appendix 1: Accounting Model</h1>
+      <p class="page-subtitle">
+        From <em>Balancing Act: A Guide to Financial Systems Success</em> &copy; Kip M. Twitchell.
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container content-single prose" style="margin-top: 40px;">
+
+    <div class="callout" style="background: #FAF7F2; border-left-color: var(--ll-brown); border-color: #E2D9D0;">
+      <h4 style="color: var(--ll-brown);">Looking for the Modern Open Conceptual Model?</h4>
+      <p style="font-size: 0.95rem;">
+        Sharealedger's open community initiative builds upon these foundational principles. <a href="https://github.com/sharealedger-org/conceptual-model" target="_blank" rel="noopener" style="color: var(--ll-brown); font-weight: 600;">Visit the Conceptual Model Repository &rarr;</a>
+      </p>
+    </div>
+
+    <p>The following outlines how the trial balance can be produced from our 31 rows of Resource Accounting Model data.</p>
+
+    <p>Notice that two different types of rows, Transfers and Events, are shown in column C: To calculate the income statement we use only the events. To calculate Salary Revenue on our income statement for example, we scan column F looking for the Salary Revenue Account, 411. When we locate a matching row, we multiply the amount in column H by -1. Doing this for each income statement account will produce the same number shown on the Sample Trial Balance figure for April 30th.</p>
+
+    <p>Calculating the April 30th balance sheet amount is a bit more complicated because both the Event and Transfer rows must be taken into account, so we have to scan columns D and F. Each time we match a Balance Sheet account in column D, we simply accumulate the amount. If we match on column F, we must multiply the amount by -1 because we are taking the amount "From" this account. Doing this will again produce all the Balance Sheet amounts shown in Figure 8 for April 30th.</p>
+
+    <p>Suppose we now move into May, and add new rows to those above. We noted earlier that using the journal entries as a way of calculating the financial statements meant we didn't necessarily need to record closing entries. Is that still true of this new system? Can I calculate the trial balances as of May 1st? Yes, it is possible, but the formulas or processes become a bit more complex.</p>
+
+    <p>It requires evaluating the date column as well. The Income Statement by definition has a "from" and a "to" date, the period covered by the Income Statement. As we evaluate each row in performing the same calculations above, we check if the date on the row is greater than the first date, and less than or equal to the end date. If it is, we include it. If not, we skip it.</p>
+
+    <p>Again, calculating the Balance Sheet is similar except the Balance Sheet is as of a particular date, so we only have one date we use in our test. Again, we perform the same calculations as above, but only rows prior to or equal to the balance sheet date are included.</p>
+
+    <p>The Net Worth account on the Balance Sheet requires additional work. Net Worth reflects the impact of the income statement on the Balance Sheet. To calculate Net Worth we not only follow the same procedure for the Balance Sheet that we have just described, but we also do the same thing for the Income Statement accounts. Whenever we see a Salary Revenue record prior to or equal to our Balance Sheet date, we add that amount to the Net Worth line as well. Thus the Net Worth account reflects the accumulated effect of all Income Sheet accounts over time.</p>
+
+    <p>Note that this simple system does not have the balancing control built into it that the double-entry system provides. If the amounts on the rows I have proposed are summed, they equal 108,899.60 which equals the sum of the corresponding rows from the double-entry system, proving that no recording errors have been made in creating my example. If the Events alone are summed, they equal Net Income as calculated under the double-entry approach; again showing no recording error in the entries I have made. If the Transfer events are summed, they equal 110,790.29. This is composed of the total offsets of 108,899.60 plus net income of 1,890.69. Because the balance sheet is a point in time statement (rather than showing activity over time like the Income Statement) these offsets have a net effect of zero upon the balance sheet.</p>
+
+    <p>All this analysis was performed to prove that the system is in balance. In a double-entry system, the sum of all the journal entries is zero. Thus my system does not have this one type of internal check built into it. Again note that this check within a double-entry system does not ensure the completeness or accuracy of the entries, just that no rows have been dropped or amounts transposed. A different reconciliation mechanism would need to be constructed to provide a similar assurance for my proposed system. If that reconciliation method required recording all these additional entries, there would be no reduction in number of entries needed in my system.</p>
+
+    <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-light); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+      <a href="/books/balancing-act-financial-systems-textbook/on-line-balancing-act-text-book/appendices/appendix-1-accounting-model/" style="font-weight: 600; color: var(--sl-blue);">&larr; Return to Conceptual Model Hub</a>
+      <a href="/ledgerlearning.html" style="font-weight: 600; color: var(--ll-brown);">LedgerLearning Home &rarr;</a>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 Sharealedger, NFP & Kip M. Twitchell. All rights reserved.</div>
+        <div>
+          <a href="/governance.html#terms" style="color: #8B949E; margin-right: 14px;">Terms of Use</a>
+          <a href="/governance.html#privacy" style="color: #8B949E;">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
