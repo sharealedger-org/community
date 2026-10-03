@@ -48,6 +48,7 @@
     <aside>
       <div class="sidebar-sticky">
         <ul class="sidebar-menu">
+          <li><a href="#bangalore-2018">The Problem (Bangalore, 2018)</a></li>
           <li><a href="#mccarthy">Principles Lecture (McCarthy)</a></li>
           <li><a href="#ai-hall">Bookkeeping & AI (Tom Hall)</a></li>
           <li><a href="#time-scope">Time & Scope (Ade Alao)</a></li>
@@ -59,6 +60,40 @@
 
     <!-- Prose Content Area -->
     <article class="prose">
+
+      <!-- Section 0: Bangalore 2018 — The Problem -->
+      <section id="bangalore-2018" style="scroll-margin-top: 100px;">
+        <span class="report-tag">Working Session</span>
+        <h2>The Problem with Financial Systems: An Overview</h2>
+        <p>
+          Before any of the formal Sharealedger exchanges took place, the core problem was laid out in full in an April 2018 working session at IBM's offices in Bangalore, India. Kip Twitchell spent 57 minutes with a room of IBM engineers building the entire case from first principles — starting with personal spending data and ending with why financial systems worldwide are stuck in an architectural pattern designed in 1494.
+        </p>
+        <p>
+          This session is the best single entry point into what Sharealedger is about. No assumed knowledge is required. The audience asks genuine questions throughout, which makes the argument unusually clear.
+        </p>
+
+        <div class="ll-media-card" style="margin: 24px 0;">
+          <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/PjzfaxvQ9WQ" title="The Problem with Financial Systems: An Overview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="ll-media-info">
+            <h3>The Problem with Financial Systems: An Overview</h3>
+            <p>Filmed April 10, 2018 · IBM Bangalore · 56:56 · Unpublished episode of <em>Conversations with Kip</em></p>
+            <a href="https://github.com/sharealedger-org/community/blob/master/meetings/2018-04_Bangalore-Financial-Systems-Overview.md" target="_blank" rel="noopener" style="font-weight: 600; color: var(--sl-blue); font-size: 0.9rem;">Full session record with 31-chapter guide &rarr;</a>
+          </div>
+        </div>
+
+        <h3>Key Arguments Made</h3>
+        <ul>
+          <li><strong>The McCarthy question (1982):</strong> If all transactions are stored in a shared database, why compute and store balances at all? Why not produce any financial report on demand directly from the transaction record?</li>
+          <li><strong>Why we don't:</strong> Financial systems were built when compute and storage were expensive. Throwing away transactions and keeping only balances was the rational economic choice in 1970. It still is in architecture — but not in cost.</li>
+          <li><strong>The permutation explosion:</strong> With even five attributes on a transaction, the number of possible balance aggregations is enormous. Every pre-computed balance added raises reconciliation overhead — and reconciliation cannot be fully automated.</li>
+          <li><strong>The daily financial cycle:</strong> Every night, banks "post" — taking transactions and updating balances — a process most modern accountants don't recognize by name, inherited directly from Luca Pacioli's 1494 Venice ledgers.</li>
+          <li><strong>"Running the computer backwards":</strong> When a balance is wrong, analysts dump data to Excel and manually re-add rows to reconstruct the number before analysis can even begin. This happens everywhere, every day, and may represent 30% of financial services operating costs.</li>
+        </ul>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border-light); margin: 48px 0;">
 
       <!-- Section 1: Principles Lecture -->
       <section id="mccarthy" style="scroll-margin-top: 100px;">
