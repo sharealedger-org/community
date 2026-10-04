@@ -2,3 +2,6 @@
 
 # WordPress theme archive and build artifacts — large binary/vendor tree, Dropbox-only
 website/Shared-Technology/
+
+# WordPress uploads backup — large images, Dropbox-only
+WPContent/
