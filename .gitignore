@@ -5,3 +5,6 @@ website/Shared-Technology/
 
 # WordPress uploads backup — large images, Dropbox-only
 WPContent-backup10-26/
+
+# Bob temporary tool working directories
+.bob/
