@@ -25,6 +25,7 @@ or GitHub notification.
 
 
 **Email address:**
+*(Required for our private member register and distribution. Note: This issue is public. Upon approval, administrators record your email in the private member database and redact it from this public ticket to protect against web scrapers. If you prefer not to post your email publicly, you may leave this blank and email it directly to `kip.twitchell@sharealedger.org`).*
 
 
 **Affiliation** (employer, organization, or independent):
