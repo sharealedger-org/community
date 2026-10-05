@@ -5,11 +5,18 @@ title: "Membership Request: [Your Name]"
 labels: membership
 assignees: kiptwitchell
 ---
+<!--
+NOTE: Notification emails regarding this request are sent from finsysvlogger@gmail.com
+(or info@sharealedger.org / kip.twitchell@sharealedger.org), which is the authorized
+operational email address for Sharealedger administration and notification routing.
+-->
 
 ## Membership Request
 
 Please complete the fields below. The CEO will review your request and respond by email
 or GitHub notification.
+
+> *Note: Operational correspondence and notifications for Sharealedger are sent from `finsysvlogger@gmail.com` or `kip.twitchell@sharealedger.org`.*
 
 **Full name:**
 
