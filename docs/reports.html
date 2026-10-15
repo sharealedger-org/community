@@ -54,6 +54,7 @@
     <aside>
       <div class="sidebar-sticky">
         <ul class="sidebar-menu">
+          <li><a href="#git-ledger-2026">Git-Ledger: First Live Books (2026)</a></li>
           <li><a href="#bangalore-2018">The Problem (Bangalore, 2018)</a></li>
           <li><a href="#mccarthy">Principles Lecture (McCarthy)</a></li>
           <li><a href="#ai-hall">Bookkeeping & AI (Tom Hall)</a></li>
@@ -66,6 +67,117 @@
 
     <!-- Prose Content Area -->
     <article class="prose">
+
+      <!-- Section: Git-Ledger First Live Books — Project Update -->
+      <section id="git-ledger-2026" style="scroll-margin-top: 100px;">
+        <span class="report-tag" style="background: #E8F5E9; color: #2E7D32;">Project Update</span>
+        <h2>Git-Ledger: Sharealedger Runs Its Own Books on Git</h2>
+        <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: -4px; margin-bottom: 18px;">March 2026</p>
+        <p>
+          Sharealedger has completed the first live deployment of <strong>git-ledger</strong> — the open-source double-entry accounting tool built by and for open communities — using Sharealedger's own financial records as the test case. All five years of organizational history (2021–2025) have been imported, validated, and reconciled to the cent against existing audited financials.
+        </p>
+
+        <h3>What Was Built</h3>
+        <p>
+          git-ledger is a plain-text, Git-native accounting package. Journals are YAML files committed to a repository. Balances and financial statements are derived on demand from those files — no proprietary database, no vendor lock-in, no format you can't read in a text editor. The full accounting engine covers double-entry validation, multi-entity consolidation, Wave CSV import, configurable charts of accounts, and CLI-driven Income Statements, Balance Sheets, and Trial Balances.
+        </p>
+
+        <h3>What the Test Proved</h3>
+        <p>
+          310 transactions (55 LLC, 255 NFP) were imported from Wave accounting exports and written into version-controlled YAML journals. Every transaction balanced. Account 1050 Transfer Clearing netted to $0.00 on both entities. Year-end Income Statements and Balance Sheets were generated for both Sharealedger LLC and Sharealedger NFP for each year 2021–2025 and compared against existing financial statements:
+        </p>
+
+        <div class="callout" style="background: #F0F7F0; border-left-color: #2E7D32;">
+          <h4 style="color: #2E7D32;">Reconciliation Result — All Years ✓</h4>
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 10px;">
+            <thead>
+              <tr style="border-bottom: 2px solid #C8E6C9;">
+                <th style="text-align: left; padding: 6px 10px; color: var(--text-muted);">Year</th>
+                <th style="text-align: right; padding: 6px 10px; color: var(--text-muted);">NFP Revenue</th>
+                <th style="text-align: right; padding: 6px 10px; color: var(--text-muted);">NFP Expenses</th>
+                <th style="text-align: right; padding: 6px 10px; color: var(--text-muted);">NFP Net</th>
+                <th style="text-align: right; padding: 6px 10px; color: var(--text-muted);">LLC Expenses</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid #E8F5E9;">
+                <td style="padding: 6px 10px;">2021</td>
+                <td style="text-align: right; padding: 6px 10px;">$6,500.00</td>
+                <td style="text-align: right; padding: 6px 10px;">$4,868.03</td>
+                <td style="text-align: right; padding: 6px 10px; font-weight: 600;">$1,631.97</td>
+                <td style="text-align: right; padding: 6px 10px;">$6,991.76</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #E8F5E9;">
+                <td style="padding: 6px 10px;">2022</td>
+                <td style="text-align: right; padding: 6px 10px;">$13,710.51</td>
+                <td style="text-align: right; padding: 6px 10px;">$13,273.56</td>
+                <td style="text-align: right; padding: 6px 10px; font-weight: 600;">$436.95</td>
+                <td style="text-align: right; padding: 6px 10px;">$3,589.00 *</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #E8F5E9;">
+                <td style="padding: 6px 10px;">2023</td>
+                <td style="text-align: right; padding: 6px 10px;">$1,800.00</td>
+                <td style="text-align: right; padding: 6px 10px;">$1,577.08</td>
+                <td style="text-align: right; padding: 6px 10px; font-weight: 600;">$222.92</td>
+                <td style="text-align: right; padding: 6px 10px;">$1,800.00</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #E8F5E9;">
+                <td style="padding: 6px 10px;">2024</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,800.00</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,755.30</td>
+                <td style="text-align: right; padding: 6px 10px; font-weight: 600;">$44.70</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,800.00</td>
+              </tr>
+              <tr>
+                <td style="padding: 6px 10px;">2025</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,000.00</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,025.88</td>
+                <td style="text-align: right; padding: 6px 10px; font-weight: 600;">($25.88)</td>
+                <td style="text-align: right; padding: 6px 10px;">$2,000.00</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 10px; margin-bottom: 0;">
+            * LLC 2022 shows a $20.76 year-split difference: Wave dated a cash-balancing entry January 2, 2023; the prior financials absorbed it into 2022. All-years totals reconcile exactly.
+          </p>
+        </div>
+
+        <h3>Design Principles Demonstrated</h3>
+        <ul>
+          <li><strong>Ephemeral ledger:</strong> No pre-computed balances are stored. Every balance and statement is re-derived from the raw journal on every run — consistent with the Sharealedger conceptual model's derivation invariant.</li>
+          <li><strong>Git as the audit chain:</strong> The commit history is the evidence chain. The committer is the authorizing agent. No custom stamping mechanism is needed.</li>
+          <li><strong>Code and data separated:</strong> The accounting engine (public, Apache 2.0) lives in one repository. The actual financial records (private, member-readable) live in a separate repository with access controls.</li>
+          <li><strong>Multi-entity from the start:</strong> Both Sharealedger LLC and Sharealedger NFP run in the same books directory, with inter-entity transfers tracked via a shared event ID field and a Transfer Clearing account that must net to zero.</li>
+        </ul>
+
+        <h3>Repository Links</h3>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
+          <div style="border: 1px solid var(--border-light); border-radius: 6px; padding: 16px;">
+            <div style="font-size: 1.3rem; margin-bottom: 8px;">&#x1F4CA;</div>
+            <h4 style="margin: 0 0 6px 0;">git-ledger</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 12px 0;">The accounting engine — public, open source, Apache 2.0.</p>
+            <a href="https://github.com/sharealedger-org/git-ledger" target="_blank" rel="noopener" style="font-weight: 600; color: var(--sl-blue); font-size: 0.9rem;">github.com/sharealedger-org/git-ledger &rarr;</a>
+          </div>
+          <div style="border: 1px solid var(--border-light); border-radius: 6px; padding: 16px;">
+            <div style="font-size: 1.3rem; margin-bottom: 8px;">&#x1F4D2;</div>
+            <h4 style="margin: 0 0 6px 0;">sharealedger-books</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 12px 0;">The live financial records — private, readable by all Sharealedger members.</p>
+            <a href="https://github.com/sharealedger-org/sharealedger-books" target="_blank" rel="noopener" style="font-weight: 600; color: var(--sl-blue); font-size: 0.9rem;">github.com/sharealedger-org/sharealedger-books &rarr;</a>
+          </div>
+        </div>
+
+        <div class="callout" style="background: #FAF7F2; border-left-color: var(--ll-brown); margin-top: 28px;">
+          <h4 style="color: var(--ll-brown);">Members: Access the Live Books</h4>
+          <p style="font-size: 0.9rem; margin-bottom: 8px;">
+            The <code>sharealedger-books</code> repository is readable by all Sharealedger members on GitHub. It contains the complete YAML journal files, chart of accounts, and mapping rules for both entities — the full source record of Sharealedger's finances since inception.
+          </p>
+          <a href="membership.html" style="font-weight: 600; color: var(--ll-brown); font-size: 0.9rem;">
+            Join Sharealedger to access the books &rarr;
+          </a>
+        </div>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border-light); margin: 48px 0;">
 
       <!-- Section 0: Bangalore 2018 — The Problem -->
       <section id="bangalore-2018" style="scroll-margin-top: 100px;">
