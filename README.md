@@ -56,6 +56,9 @@ One entry per repository. **Before creating a new repo**, add a row here and fol
 | [org-admin](https://github.com/sharealedger-org/org-admin) | `org-` | Org-internal | Private | Board resolutions, financials, org administration |
 | [org-books](https://github.com/sharealedger-org/org-books) | `org-` | Org-internal | Private | Sharealedger NFP bookkeeping data |
 | [proto-hospice](https://github.com/sharealedger-org/proto-hospice) | `proto-` | Prototype | Planned | Hospice family caregiver shared ledger prototype |
+| [proto-va-rsc](https://github.com/sharealedger-org/proto-va-rsc) | `proto-` | Prototype | Archived | VA post-analysis RSC demo; historical POC superseded by ledger-lab |
+| [proto-universal-ledger](https://github.com/sharealedger-org/proto-universal-ledger) | `proto-` | Prototype | Archived | Universal ledger POC; historical predecessor to ledger-lab |
+| [spec-community-specification](https://github.com/sharealedger-org/spec-community-specification) | `spec-` | Specification | Active | Community Specification 1.0 governance document |
 
 ---
 
