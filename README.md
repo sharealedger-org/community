@@ -27,7 +27,7 @@ register requirements — is established by Board resolution:
 
 ## Current Discussion
 
-[Sharealedger and an Open ERP: Discussion Starter](https://github.com/sharealedger-org/spec-conceptual-model/blob/main/GenevaERS/ERP_DISCUSSION_STARTER.md)
+[Sharealedger and an Open ERP: Discussion Starter](https://github.com/sharealedger-org/spec-conceptual-model/blob/main/sources/GenevaERS/ERP_DISCUSSION_STARTER.md)
 explores whether Sharealedger's shared-ledger mission could support an open, configurable ERP
 financial foundation. It is a starting point for community discussion, not an approved project plan
 or architecture.
