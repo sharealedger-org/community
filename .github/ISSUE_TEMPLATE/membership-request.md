@@ -37,7 +37,7 @@ or GitHub notification.
 **Acknowledgment:**
 
 By submitting this request I acknowledge that:
-- Access to the `sharealedger-org/members` repository constitutes Sharealedger membership
+- Access to the `sharealedger-org/org-members` repository constitutes Sharealedger membership
 - Materials in that repository may carry individual copyright notices; I will respect those terms
 - Member content is not for redistribution outside of Sharealedger membership without permission
 - My participation is subject to the Sharealedger Membership and Antitrust Policy

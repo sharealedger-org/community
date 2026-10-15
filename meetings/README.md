@@ -6,4 +6,4 @@ This directory contains public governance documents and board records for Sharea
 
 - `CorporateDocuments/`: Foundational corporate policies, bylaws, and public board resolutions (Exhibit A through Exhibit L).
 
-*Note: Working group sessions and member technical meeting minutes are archived in the private `sharealedger-org/members` repository under `meetings/`.*
+*Note: Working group sessions and member technical meeting minutes are archived in the private `sharealedger-org/org-members` repository under `meetings/`.*
