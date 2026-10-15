@@ -79,8 +79,15 @@
 
         <h3>What Was Built</h3>
         <p>
-          git-ledger is a plain-text, Git-native accounting package. Journals are YAML files committed to a repository. Balances and financial statements are derived on demand from those files — no proprietary database, no vendor lock-in, no format you can't read in a text editor. The full accounting engine covers double-entry validation, multi-entity consolidation, Wave CSV import, configurable charts of accounts, and CLI-driven Income Statements, Balance Sheets, and Trial Balances.
+          git-ledger is a plain-text, Git-native accounting package. Journals are YAML files committed to a repository. Balances and financial statements are derived on demand from those files — no proprietary database, no vendor lock-in, no format you can't read in a text editor. The full accounting engine covers double-entry validation, multi-entity consolidation, configurable charts of accounts, and CLI-driven Income Statements, Balance Sheets, and Trial Balances.
         </p>
+        <p>
+          Two importers are implemented for bringing existing books into git-ledger:
+        </p>
+        <ul>
+          <li><strong>Wave importer</strong> — reads Wave's double-entry CSV export format, groups rows by Transaction ID, and resolves Wave account names to chart codes via a declarative YAML mapping-rules file. This is what Sharealedger used for its own live import.</li>
+          <li><strong>QuickBooks importer</strong> — targets the QuickBooks General Ledger / Transaction Detail by Account CSV export, handling both Desktop and Online column variants. Uses the same mapping-rules pattern as the Wave importer. Intended for QuickBooks users migrating to or evaluating git-ledger.</li>
+        </ul>
 
         <h3>What the Test Proved</h3>
         <p>
@@ -144,8 +151,8 @@
 
         <h3>Design Principles Demonstrated</h3>
         <ul>
-          <li><strong>Ephemeral ledger:</strong> No pre-computed balances are stored. Every balance and statement is re-derived from the raw journal on every run — consistent with the Sharealedger conceptual model's derivation invariant.</li>
-          <li><strong>Git as the audit chain:</strong> The commit history is the evidence chain. The committer is the authorizing agent. No custom stamping mechanism is needed.</li>
+          <li><strong>Ephemeral ledger with provenance snapshots:</strong> No pre-computed balances are stored. Every balance and statement is re-derived from the raw journal on every run — consistent with the Sharealedger conceptual model's derivation invariant. When journal files grow large (past a configurable fraction of available memory), git-ledger can automatically write a <code>ledger-cache.yaml</code> snapshot stamped with the Git commit SHA it was derived from, creating a durable provenance record without replacing the ephemeral model.</li>
+          <li><strong>Git as the audit chain:</strong> The commit history is the evidence chain. The committer is the authorizing agent. The Git SHA on any persisted snapshot ties it directly to the exact journal state it represents — no custom stamping mechanism is needed.</li>
           <li><strong>Code and data separated:</strong> The accounting engine (public, Apache 2.0) lives in one repository. The actual financial records (private, member-readable) live in a separate repository with access controls.</li>
           <li><strong>Multi-entity from the start:</strong> Both Sharealedger LLC and Sharealedger NFP run in the same books directory, with inter-entity transfers tracked via a shared event ID field and a Transfer Clearing account that must net to zero.</li>
         </ul>
