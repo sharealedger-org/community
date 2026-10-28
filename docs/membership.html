@@ -69,12 +69,99 @@
       <h2>Member Benefits & Downloadable Resources</h2>
       <p>Members receive direct access to our private working repository containing:</p>
       <ul>
-        <li><strong>Research Monograph PDFs:</strong> Complete papers on the Minimum Cost Curve, Pre-Hierarchy Event Repositories, and the Master Accounting Framework.</li>
+        <li><strong>Research Monograph PDFs:</strong> Complete papers on the Minimum Cost Curve, Pre-Hierarchy Event Repositories, and the Master Accounting Framework — previewed below.</li>
         <li><strong>Full Slide Deck Archives:</strong> Comprehensive PowerPoint presentation decks (e.g. <em>CKB Spring Work Effort</em>, <em>Sharealedger Progression Decks</em>, and <em>MSU Lecture Materials</em>).</li>
         <li><strong>Sanitized Real-World Data Fixtures:</strong> Multi-year sanitized transaction datasets and budget models for ledger testing and benchmark simulations.</li>
         <li><strong>Working Groups & Discussion:</strong> Participation in member working sessions and our community listserv (<code>members@sharealedger.org</code>).</li>
         <li><strong>Early Working Drafts:</strong> Advance access to pre-release whitepapers, engine specifications, and conceptual models.</li>
       </ul>
+    </section>
+
+    <!-- Research Monograph Previews -->
+    <section id="monographs">
+      <h2>Research Monograph Collection — Abstracts</h2>
+      <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 28px;">
+        Nine working papers forming a unified account of the architecture of economic state — from theoretical foundations to production existence proofs to the inter-enterprise frontier. Full PDFs are available to members in the private repository.
+      </p>
+
+      <!-- Monograph 0: Introduction & Master Framework -->
+      <div style="border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 24px 28px; margin-bottom: 20px; background: #fff;">
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 12px;">
+          <div>
+            <span style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--sl-primary);">Introduction & Master Framework</span>
+            <h3 style="margin: 6px 0 2px; font-size: 1.1rem; line-height: 1.35;">The Architecture of Economic State: Foundations, Engines, and Frontiers of Enterprise Financial Systems</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Kip M. Twitchell &nbsp;·&nbsp; IBM · GenevaERS Project · Sharealedger.org &nbsp;·&nbsp; 2026</p>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.8rem; background: #F0F4F8; color: var(--sl-primary); border: 1px solid #D0D8F0; border-radius: 4px; padding: 3px 10px; white-space: nowrap; align-self: flex-start;">Members Only — PDF</span>
+        </div>
+        <div style="font-size: 0.93rem; line-height: 1.7; color: var(--text-main); border-top: 1px solid var(--border-subtle); padding-top: 14px;">
+          <p>
+            Every major financial institution made the same decision that early digital photographers made when storage was expensive: compress the raw signal into a manageable representation and discard the rest. For photographers, that meant JPEG. For financial institutions, it meant posting transactions to pre-aggregated balance structures — a deliberate, rational, economically justified decision that permanently discarded the attributes that did not fit the pre-defined posting key.
+          </p>
+          <p style="margin-top: 10px;">
+            This collection of nine papers is the formal account of why the <em>uncompressed</em> architecture is correct, how it is built, and what it makes possible — from the theoretical foundation of the minimum cost point through the AI consequence, the production existence proofs, the instrument profitability and temporal perspective capabilities, the control and migration architecture, and the inter-enterprise frontier where the same logic eliminates the reconciliation tax between counterparties entirely. It is written for the practitioners, architects, and technologists who will do the building.
+          </p>
+          <p style="margin-top: 10px; font-size: 0.88rem; color: var(--text-muted); font-style: italic;">
+            <strong>Nine papers in three volumes:</strong> Volume I — Theoretical Foundations (Papers 1–2) · Volume II — The Core Architecture (Papers 3–7) · Volume III — Transition and Extension (Papers 8–9)
+          </p>
+        </div>
+      </div>
+
+      <!-- Monograph 1: Minimum Cost Curve -->
+      <div style="border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 24px 28px; margin-bottom: 20px; background: #fff;">
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 12px;">
+          <div>
+            <span style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--sl-primary);">Paper 1 · Volume I: Theoretical Foundations</span>
+            <h3 style="margin: 6px 0 2px; font-size: 1.1rem; line-height: 1.35;">The Minimum Cost Curve for Enterprise Financial Data Architecture</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Kip M. Twitchell &nbsp;·&nbsp; IBM · GenevaERS · Sharealedger.org &nbsp;·&nbsp; Working Draft, 2026</p>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.8rem; background: #F0F4F8; color: var(--sl-primary); border: 1px solid #D0D8F0; border-radius: 4px; padding: 3px 10px; white-space: nowrap; align-self: flex-start;">Members Only — PDF</span>
+        </div>
+        <div style="font-size: 0.93rem; line-height: 1.7; color: var(--text-main); border-top: 1px solid var(--border-subtle); padding-top: 14px;">
+          <p>
+            Modern enterprise financial systems maintain multiple redundant balance structures — source system product ledgers, subledgers, general ledgers, data warehouse dimensions, and analytical datamarts — rooted in an architectural tradeoff made when computing was expensive: aggregate transactions into balances at posting time to avoid reprocessing history at query time. This paper argues that this tradeoff defines a formal mathematical cost curve with an <strong>interior minimum cost point</strong>, that virtually all major enterprises have drifted far to the right of that point, and that the cost of that drift is measurable in two compounding dimensions: (1) direct storage and reconciliation overhead from unnecessary balance duplication, and (2) the structural inability to answer queries that balance hierarchies cannot satisfy because the posting projection permanently discards the attributes they require.
+          </p>
+          <p style="margin-top: 10px;">
+            Two production natural experiments at enterprise scale — a major U.S. property &amp; casualty insurer's 25.5-billion-record event repository and a Tier-1 global bank Instrument Ledger that reduced a projected 46-terabyte analytical footprint to 250 gigabytes (a 99.5% reduction) — demonstrate that the minimum cost architecture is operationally feasible and economically decisive.
+          </p>
+          <p style="margin-top: 10px; font-size: 0.88rem; color: var(--text-muted);">
+            <strong>Keywords:</strong> REA framework · minimum cost curve · financial data architecture · event-sourced ledger · lossy compression · posting process · GenevaERS · instrument ledger · reconciliation cost · balances as inventory
+          </p>
+        </div>
+      </div>
+
+      <!-- Monograph 2: Pre-Hierarchy Event Repositories -->
+      <div style="border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 24px 28px; margin-bottom: 20px; background: #fff;">
+        <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 12px;">
+          <div>
+            <span style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--sl-primary);">Paper 2 · Volume I: Theoretical Foundations</span>
+            <h3 style="margin: 6px 0 2px; font-size: 1.1rem; line-height: 1.35;">Pre-Hierarchy Event Repositories as Training Corpora for Enterprise AI</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Kip M. Twitchell &nbsp;·&nbsp; Sharealedger.org · GenevaERS Project &nbsp;·&nbsp; Working Draft, 2026</p>
+          </div>
+          <span style="flex-shrink: 0; font-size: 0.8rem; background: #F0F4F8; color: var(--sl-primary); border: 1px solid #D0D8F0; border-radius: 4px; padding: 3px 10px; white-space: nowrap; align-self: flex-start;">Members Only — PDF</span>
+        </div>
+        <div style="font-size: 0.93rem; line-height: 1.7; color: var(--text-main); border-top: 1px solid var(--border-subtle); padding-top: 14px;">
+          <p>
+            The dominant paradigm for enterprise AI training on structured business data relies on tabular extracts from balance-based systems — product subledgers, General Ledgers, data warehouses, and OLAP cubes — that represent the accumulated output of decades of transaction posting processes. This paradigm systematically hobbles enterprise machine learning because transaction posting constitutes <strong>lossy compression in the Shannon sense</strong>. Posting destroys the multi-dimensional structure of business reality: it strips out counterparty context, severs causal event linkages, and collapses complex temporal processes into artificial "true-up" balance adjustments. When machine learning models are trained on these compressed balance marts, they are trapped in a <strong>"flat painting"</strong> — unable to discover latent causal patterns, anticipate non-linear outcomes across any business domain, or generalize beyond the fixed dimensional projections that were anticipated at posting time.
+          </p>
+          <p style="margin-top: 10px;">
+            This paper introduces the <strong>Pre-Hierarchy Event Repository</strong> — an enterprise architecture in which raw economic business events (Resource-Event-Agent primitives) are preserved at full resolution as the primary book of record, with positions derived at query time — and establishes the information-theoretic basis for why pre-hierarchy corpora provide a higher information ceiling for Transformer-based sequence models and tabular Foundation Models. An empirical experimental design is proposed using a major U.S. property &amp; casualty insurer's 25.5-billion-record event corpus spanning 25 years to quantitatively measure the information gain of pre-hierarchy sequence modeling over conventional balance-derived features.
+          </p>
+          <p style="margin-top: 10px; font-size: 0.88rem; color: var(--text-muted);">
+            <strong>Keywords:</strong> Enterprise AI · Foundation Models · Tabular Data · Event-Driven Architecture · Information Theory · Lossy Compression · REA Ontology · Pre-Hierarchy Training Corpora · Machine-Readable Contracts · GenevaERS
+          </p>
+        </div>
+      </div>
+
+      <!-- Papers 3–9 teaser -->
+      <div style="border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 20px 24px; background: var(--bg-alt); text-align: center;">
+        <p style="font-size: 0.93rem; color: var(--text-muted); margin-bottom: 16px;">
+          <strong style="color: var(--text-main);">Papers 3–9</strong> cover the full architecture: overnight batch physics and subledger elimination (Paper 3), the GenevaERS single-pass engine (Paper 4), accounting rules and transformation engines (Paper 5), temporal perspectives and Switch/Recast/Reclass taxonomy (Paper 6), operational control architecture (Paper 7), legacy conversion strategies (Paper 8), and shared inter-enterprise ledgers that eliminate bilateral reconciliations entirely (Paper 9).
+        </p>
+        <a href="https://github.com/sharealedger-org/community/issues/new/choose" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.95rem;">
+          Join Sharealedger to access all nine papers &rarr;
+        </a>
+      </div>
     </section>
 
     <section>
