@@ -56,6 +56,7 @@
         <ul class="sidebar-menu">
           <li><a href="#monographs">Research Monographs</a></li>
           <li><a href="#git-ledger-2026">Git-Ledger: First Live Books (2026)</a></li>
+          <li><a href="#ledger-lab">Ledger Lab: Open Empirical Pipeline</a></li>
           <li><a href="#bangalore-2018">The Problem (Bangalore, 2018)</a></li>
           <li><a href="#mccarthy">Principles Lecture (McCarthy)</a></li>
           <li><a href="#ai-hall">Bookkeeping & AI (Tom Hall)</a></li>
@@ -250,6 +251,48 @@
           <a href="membership.html" style="font-weight: 600; color: var(--ll-brown); font-size: 0.9rem;">
             Join Sharealedger to access the books &rarr;
           </a>
+        </div>
+      </section>
+
+      <hr style="border: 0; border-top: 1px solid var(--border-light); margin: 48px 0;">
+
+      <!-- Section: Ledger Lab -->
+      <section id="ledger-lab" style="scroll-margin-top: 100px;">
+        <span class="report-tag" style="background: #EEF0F8; color: var(--sl-primary);">Open Research</span>
+        <h2>Ledger Lab: The Open Empirical Pipeline for the Monograph Experiments</h2>
+        <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: -4px; margin-bottom: 18px;">Active · GenevaERS · Apache 2.0</p>
+        <p>
+          The nine-paper monograph describes a set of architectural claims — that pre-hierarchy event repositories produce better AI training corpora than balance-based systems, that the minimum cost curve has a demonstrable interior minimum, and that the Instrument Pivot Theorem holds at enterprise scale. Ledger Lab is the open-source empirical laboratory built to test those claims on public data anyone can run.
+        </p>
+        <p>
+          The experiment in Paper 2 (§5) is designed around two tracks. The primary track uses a major U.S. property &amp; casualty insurer's 25.5-billion-record event repository — maximum longitudinal depth and domain realism, accessible under institutional agreement. The reproducible track is Ledger Lab: the same pre-hierarchy extraction and tokenization pipeline running on Virginia state government vendor payment data, open source, GenevaERS-powered, independently verifiable by any researcher.
+        </p>
+
+        <h3>What Ledger Lab Is Built to Run</h3>
+        <ul>
+          <li><strong>Experiment 1 — Minimum cost curve (Paper 1):</strong> Configure the ARE/Instrument Ledger pipeline at variable materialization levels, measure total cost (compute + storage + reconciliation obligation) at each configuration, and trace the cost curve empirically. The goal is to locate the interior minimum from data rather than inference.</li>
+          <li><strong>Experiment 2 — Instrument Pivot Theorem (Paper 1 §3.5):</strong> Demonstrate on the public VA vendor dataset that adding reporting dimensions to the Contract Attributes Record costs one column — zero new balance records — while the equivalent key-embedded balance architecture grows exponentially. The ratio is measurable and reproducible.</li>
+          <li><strong>Experiment 3 — Pre-hierarchy AI signal (Paper 2 §5):</strong> Run the three-layer comparison (text-serialized LLM baseline → balance-derived supervised model → pre-hierarchy sequence model) on the VA vendor event stream and measure whether the pre-hierarchy layer surfaces predictive patterns the compressed layers cannot reach.</li>
+        </ul>
+
+        <h3>Why Public Data Matters Here</h3>
+        <p>
+          The insurer corpus is real and large, but no reviewer can touch it. The VA vendor data is public, the pipeline is open source, and the GenevaERS engine is Apache 2.0 on the Linux Foundation Open Mainframe Project. Any researcher can clone the repo, run the pipeline, and reproduce the results. That reproducibility is what turns the monograph's theoretical claims into a testable empirical program rather than a set of existence proofs from proprietary deployments.
+        </p>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px;">
+          <div style="border: 1px solid var(--border-light); border-radius: 6px; padding: 16px;">
+            <div style="font-size: 1.3rem; margin-bottom: 8px;">&#x1F9EA;</div>
+            <h4 style="margin: 0 0 6px 0;">ledger-lab</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 12px 0;">The open empirical pipeline — public, Apache 2.0.</p>
+            <a href="https://github.com/sharealedger-org/ledger-lab" target="_blank" rel="noopener" style="font-weight: 600; color: var(--sl-blue); font-size: 0.9rem;">github.com/sharealedger-org/ledger-lab &rarr;</a>
+          </div>
+          <div style="border: 1px solid var(--border-light); border-radius: 6px; padding: 16px;">
+            <div style="font-size: 1.3rem; margin-bottom: 8px;">&#x2699;&#xFE0F;</div>
+            <h4 style="margin: 0 0 6px 0;">GenevaERS</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 12px 0;">The single-pass engine powering the pipeline — Linux Foundation Open Mainframe Project.</p>
+            <a href="https://github.com/genevaers/performance-engine" target="_blank" rel="noopener" style="font-weight: 600; color: var(--sl-blue); font-size: 0.9rem;">github.com/genevaers &rarr;</a>
+          </div>
         </div>
       </section>
 
